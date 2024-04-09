@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+
+<body>
+    <nav>
+        <navbar class="navbar-section">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/Logo.svg" alt="Rama Mandira">
+                </a>
+            </div>
+
+            <li class="menu-icon">
+                <img src="./assets/icons/menu-hamburger.svg" onclick="toggleFunction()" alt="menu-icon">
+            </li>
+            <ul class="nav-container" id="topnav">
+                <li class="menu-close-icon">
+                    <img src="./assets/icons/menu-close.svg" onclick="toggleFunction()" alt="menu-icon">
+                </li>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="donation.html">Donations & Support</a>
+                </li>
+                <li>
+                    <a href="#">Search</a>
+                </li>
+                <li>
+                    <a href="#">contact </a>
+                </li>
+                <li>
+                    <button class="primary-btn"><a href="#">Book Now</a></button>
+                </li>
+
+                <!-- <li><a href="#why-us"></a></li> -->
+                <!-- <li><a href="#contact">Locations</a></li> -->
+            </ul>
+        </navbar>
+    </nav>
+    <section class="banner-section">
+        <img src="./assets/about-bg.png" alt="image">
+        <h1>About</h1>
+        <span>HOME - ABOUT</span>
+    </section>
+    <section class="history-section">
+        <div class="history-container container">
+            <div class="history-img">
+                <img src="./assets/ram-mandira.png" alt="ram mandira">
+            </div>
+            <div class="history-content">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>
+                    Lord Rama, the epitome of righteousness and virtue, offers profound wisdom and timeless teachings
+                    through his life and actions. Explore the Divine Lessons of Lord Rama to discover invaluable
+                    insights into dharma, compassion, devotion, and the path of spiritual enlightenment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="gallery-container container">
+            <h1 class="heading">Gallery </h1>
+            <div class="gallery">
+                <!-- gallery item start -->
+                <div class="gallery-item wide-image">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/1.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/1.png" alt="image">
+
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item" >
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/2.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/2.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/3.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/3.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/4.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/4.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- gallery item end -->
+                <!-- gallery item start -->
+                <div class="gallery-item tall-image">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/5.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/5.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item wide-image">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/6.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/6.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/7.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/7.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/8.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/8.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/9.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/9.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item tall-image  ">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/13.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/13.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+             
+                <div class="gallery-item wide-image  ">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/14.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/14.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item  ">
+                    <div class="gallery-item-inner">
+                        <a href="./assets/gallery/10.png" onclick="openLightbox(event, this)">
+                            <img src="./assets/gallery/10.png" alt="image">
+                            <div class="gallery-overlay">
+                                <div class="overlay-zoom">
+                                    <img src="./assets/icons/zoom.svg" alt="zoom">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                    <div class="gallery-item  ">
+                        <div class="gallery-item-inner">
+                            <a href="./assets/gallery/15.png" onclick="openLightbox(event, this)">
+                                <img src="./assets/gallery/15.png" alt="image">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-zoom">
+                                        <img src="./assets/icons/zoom.svg" alt="zoom">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-item  ">
+                        <div class="gallery-item-inner">
+                            <a href="./assets/gallery/11.png" onclick="openLightbox(event, this)">
+                                <img src="./assets/gallery/11.png" alt="image">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-zoom">
+                                        <img src="./assets/icons/zoom.svg" alt="zoom">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery-item  ">
+                        <div class="gallery-item-inner">
+                            <a href="./assets/gallery/12.png" onclick="openLightbox(event, this)">
+                                <img src="./assets/gallery/12.png" alt="image">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-zoom">
+                                        <img src="./assets/icons/zoom.svg" alt="zoom">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="lightbox" class="lightbox">
+                    <span class="close-icon" onclick="closeLightbox()">&#10006;</span>
+                    <img id="lightbox-img" src="" alt="lightbox image">
+                </div>
+            </div>
+
+    </section>
+
+    <section class="contact-card container">
+        <div class="contact-card-img">
+            <img src="./assets/contact-img.png" alt="image">
+        </div>
+        <div class="card-content">
+            <h1>Visit Us</h1>
+            <p><img src="./assets/icons/location.svg" alt="icon">
+                Lorem ipsum dolor sit amet consectetur. Ut pellentesque commodo eget a velit congue. Molestie mattis
+                iaculis semper nulla viverra risus.
+            </p>
+            <p>
+                <img src="./assets/icons/mobile-icon.svg" alt="icon"> <a href="#">+91 123456789</a>
+            </p>
+            <p>
+                <img src="./assets/icons/mobile-icon.svg" alt="icon"> <a href="#">+91 123456789</a>
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-about">
+                <img src="./assets/Logo.svg" alt="logo image">
+                <p>Discover the essence of Lord Rama's wisdom. Dive into timeless teachings and devotionals. Embrace the
+                    divine journey with us.</p>
+                <div class="socialMedia-icons">
+                    <img src="./assets/icons/fb-icon.svg" alt="image">
+                    <img src="./assets/icons/fb-icon.svg" alt="image">
+                    <img src="./assets/icons/fb-icon.svg" alt="image">
+                    <img src="./assets/icons/fb-icon.svg" alt="image">
+                </div>
+            </div>
+            <div class="footer-services">
+                <ul>
+                    <li><img src="./assets/icons/right-mark.svg" alt="right mark"> <a href="#">Spiritual Teachings </a>
+                    </li>
+                    <li><img src="./assets/icons/right-mark.svg" alt="right mark"> <a href="#">Devotional Practices </a>
+                    </li>
+                    <li><img src="./assets/icons/right-mark.svg" alt="right mark"> <a href="#">Online Courses and
+                            Workshops</a> </li>
+                    <li><img src="./assets/icons/right-mark.svg" alt="right mark"> <a href="#">Community Events</a>
+                    </li>
+                    <li><img src="./assets/icons/right-mark.svg" alt="right mark"> <a href="#">Membership and
+                            Support</a> </li>
+                    <li><img src="./assets/icons/right-mark.svg" alt="right mark"> <a href="#">Children's Programs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3></h3>
+                <ul>
+                    <li>
+                        <img src="./assets/icons/mobile-icon.svg" alt="mobile icon">
+                        <a href="#">+91 1234567890</a>
+                    </li>
+                    <li>
+                        <img src="./assets/icons/mobile-icon.svg" alt="mobile icon">
+                        <a href="#">+91 1234567890</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-footer container"></div>
+        <div class="footer-copyright container">
+            <p>©2024 Ram Darbar. All rights Reserved.</p>
+            <p>Terms of Use |Privacy Policy |Cancellation Policy</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
