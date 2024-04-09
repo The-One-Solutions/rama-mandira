@@ -122,9 +122,12 @@ li {
 
 .menu-icon {
     display: none;
-    max-width: 40px;
+    max-width: 90px;
 }
-
+.menu-icon img, .menu-close-icon img{
+    width: 100%;
+    height: auto;
+}
 .menu-close-icon {
     display: none;
     max-width: 40px;
