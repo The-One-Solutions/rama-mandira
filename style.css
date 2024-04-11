@@ -124,7 +124,7 @@ li {
     display: none;
     max-width: 90px;
 }
-.menu-icon img, .menu-close-icon img{
+.menu-icon img, .menu-close-icon img{   
     width: 100%;
     height: auto;
 }
@@ -157,7 +157,7 @@ li {
 }
 
 .nav-container li > a {
-   padding-bottom: 30px;
+   padding-bottom: 10px;
 }
 
 .nav-container li a,

@@ -187,14 +187,6 @@ slide(slider1, sliderItems, prev, next);
 
 
 
-var grid = document.querySelector('.gallery');
-var masonry = new Masonry(grid, {
-  itemSelector: '.gallery-item',
-  columnWidth: '.gallery-item',
-  gutter: 10 // Adjust as needed
-});
-
-
 
 // gallery lightbox
 function openLightbox(event, element) {
